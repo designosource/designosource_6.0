@@ -1,15 +1,12 @@
 /* GOOGLE FONTS */
-@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700';
+
 
 /* PREVIEW */
-html 
-{
-	font-size: 62.5%;
-}
+
 
 body
 {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .preview
@@ -35,7 +32,7 @@ body
     z-index: 99;
 }
 
-h1
+#previewh1
 {
     position: absolute;
     font-family: 'Lato', sans-serif;
