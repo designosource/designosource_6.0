@@ -1,0 +1,77 @@
+/* GOOGLE FONTS */
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700';
+
+/* PREVIEW */
+html 
+{
+	font-size: 62.5%;
+}
+
+body
+{
+	background-color: #fff;
+}
+
+.preview
+{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/back.jpg");
+    background-position: center center;
+    background-size: cover;
+    z-index: 9;
+}
+
+.gradient
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #7b4397; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #7b4397 , #dc2430); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #7b4397 , #dc2430); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.8;
+    z-index: 99;
+}
+
+h1
+{
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 6em;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+
+.line-top
+{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    left: 50%;
+    top: 40%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+
+.line-bottom
+{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+/* END PREVIEW */
