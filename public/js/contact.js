@@ -75,7 +75,7 @@ $(document).ready(function() {
                 $(element).parent().removeClass('error')
             },
             submitHandler: function(form) {
-             /*var data = $('#contactForm').serialize();   
+             /*var data = $('#contactForm').serialize();
              $.post(
                     '../mail/contact_us.php',
                     {data: data},

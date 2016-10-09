@@ -50,7 +50,8 @@ body nav .navigation a:after {
   height: 10px;
   border-bottom: 5px solid white; }
 body h2 {
-  font-family: AlteDIN1451Mittelschrift-Regular;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 1.2rem;
   padding-left: 40px; }
@@ -58,7 +59,8 @@ body .line {
   width: 80px;
   margin-left: 40px;
   height: 5px;
-  background-color: black;
+  background: -webkit-linear-gradient(to right top, #7b4397 , #dc2430); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right top, #7b4397 , #dc2430);
   margin: 10px 0px 20px 40px; }
 
 @media (min-width: 768px) {
@@ -1395,7 +1397,7 @@ section.projecten div.effect-sadie .nohover:hover p {
     width: 14.28%; } }
 div#contactnav {
   width: 100%;
-  background-color: #081925;
+  background-color: #22242a;
   repeat: none;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -1450,21 +1452,21 @@ footer #emailadres {
 footer ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: black;
-  font-style: italic; }
+  }
 footer :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: black;
   opacity: 1;
-  font-style: italic; }
+ }
 footer ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: black;
   opacity: 1;
-  font-style: italic; }
+   }
 footer :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: black;
-  font-style: italic; }
+   }
 footer #btnbericht {
   text-align: center;
   width: 100%;
@@ -1483,39 +1485,36 @@ footer #socialMedia {
   margin-top: 60px;
   margin-bottom: 40px; }
 footer #socialMedia li {
-  border-radius: 50%;
   margin: 0;
   width: 50px;
   height: 50px;
   float: left;
   margin-right: 10px;
   list-style: none;
-  background: #262626;
-  border: 1px solid #1e1e1e; }
+  }
 footer #socialMedia li#linkedIn {
   margin-right: 0px; }
 footer #socialMedia li a {
   display: block;
-  border-radius: 50%;
   height: 50px;
   width: 50px;
   text-indent: -9999px;
   background-repeat: no-repeat; }
 footer #socialMedia li a:hover {
-  background-color: #eb4328;
+  background-color: #7b4397;
   -webkit-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out; }
 footer ul#socialMedia li#twitter a {
   background-image: url("../../public/img/twitter.svg"), none;
-  background-color: #20a8e2; }
+   }
 footer ul#socialMedia li#facebook a {
   background-image: url("../../public/img/facebook.svg"), none;
-  background-color: #3a589c; }
+  }
 footer ul#socialMedia li#linkedIn a {
   background-image: url("../../public/img/linkedin.svg"), none;
-  background-color: #0071b3; }
+ }
 footer #visitekaartje p {
   width: 200px;
   margin: 0 auto;
@@ -1541,8 +1540,7 @@ footer #visitekaartje #projectby #tmlink {
   display: none; }
 @media (min-width: 801px) {
   footer {
-    height: 660px;
-    background-position: right bottom;
+    height: 620px;
     background-size: 500px; }
   footer textarea {
     width: 70%;
