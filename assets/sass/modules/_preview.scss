@@ -1,9 +1,3 @@
-/* GOOGLE FONTS */
-
-
-/* PREVIEW */
-
-
 body
 {
     background-color: #fff;
@@ -39,6 +33,9 @@ body
     font-weight: 400;
     font-size: 6em;
     color: #fff;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%,-50%);
@@ -71,4 +68,31 @@ body
     transform: translate(-50%,-50%);
     z-index: 999;
 }
-/* END PREVIEW */
+
+@media screen and (max-width: 1000px)
+{
+    #previewh1
+    {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    #previewh1
+    {
+        font-size: 2.6em;
+    }
+    
+    .line-top
+    {
+        height: 2px;
+        top: 45%;
+    }
+
+    .line-bottom
+    {
+        height: 2px;
+        top: 55%;
+    }
+}
