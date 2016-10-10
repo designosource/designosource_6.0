@@ -63,6 +63,14 @@ body .line {
   background: linear-gradient(to right top, #7b4397 , #dc2430);
   margin: 10px 0px 20px 40px; }
 
+body .lineWhite {
+  width: 80px;
+  margin-left: 40px;
+  height: 5px;
+  background-color: #fff;
+  margin: 10px 0px 20px 40px; }
+
+
 @media (min-width: 768px) {
   body nav #logo {
     display: block;
@@ -1025,6 +1033,13 @@ header img {
 .watwedoen_m_cont > .line {
   margin-bottom: 40px; }
 
+.watwedoen_m_cont > h2, .watwedoen_m_cont > .lineWhite {
+  padding-left: 0;
+  margin-left: 0; }
+
+.watwedoen_m_cont > .lineWhite {
+  margin-bottom: 40px; }
+
 .m_ticked {
   background-color: black; }
 
@@ -1420,6 +1435,11 @@ footer .line {
   margin-left: 0px;
   background-color: white;
   margin-bottom: 50px; }
+
+footer .lineWhite {
+  margin-left: 0px;
+  background-color: white;
+  margin-bottom: 50px; }
 footer #radios {
   margin-bottom: 50px; }
 footer #radios .radiotxt {
@@ -1476,6 +1496,17 @@ footer #btnbericht {
   margin-top: 25px;
   text-transform: uppercase;
   cursor: pointer; }
+
+footer #btnbericht:hover {
+  background-color: #22242a;
+  border: 3px solid white;
+  color: white;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
 footer #socialMedia {
   list-style-type: none;
   padding: 0;
@@ -1580,10 +1611,12 @@ footer #visitekaartje #projectby #tmlink {
     padding-left: 0px; } }
 @media (min-width: 1024px) {
   footer textarea {
-    width: 661px;
-    height: 165px; }
+    width: 550px;
+    height: 165px;
+    margin-bottom: 5px;
+  }
   footer #emailadres {
-    width: 661px; }
+    width: 550px; }
   footer #socialMedia {
     margin-left: 509px;
     margin-right: 0; }
