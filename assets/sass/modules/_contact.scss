@@ -264,6 +264,17 @@ input[type="radio"]
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+.logo-visite {
+  text-indent: -9999px;
+  display: block;
+  background-image: url("../../public/img/tmlogogrey.png");
+  width: 128.25px;
+  height: 50px;
+  background-size: 128.25px 50px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-bottom: 20px; }
 @media (max-width: 400px){
   .projecten .grid .grid-item, .projecten .grid .grid-item--width2{
     width: 100%;
