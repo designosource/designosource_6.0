@@ -1,12 +1,266 @@
-#contact h2{
-  font-family: 'Lato', sans-serif;
+#contact h2
+{
+    font-family: 'Lato', sans-serif;
 }
-h2{
-  font-family: 'Lato', sans-serif;
+h2
+{
+    font-family: 'Lato', sans-serif;
 }
-textarea{
-  font-family: Lato, sans-serif;
+textarea
+{
+    font-family: 'Lato', sans-serif;
 }
-body{
-  overflow-x: hidden;
+body
+{
+    overflow-x: hidden;
+}
+
+.contact
+{
+    width: 100vw;
+    height: auto;
+    background: #7b4397;
+    background: -webkit-linear-gradient(to right top, #7b4397 , #dc2430);
+    background: linear-gradient(to right top, #7b4397 , #dc2430);
+    display: flex;
+}
+
+.contact-left
+{
+    width: 60%;
+    height: auto;
+}
+
+.contact-right
+{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-contact
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-left: 155px;
+    margin-top: 50px;
+}
+
+.line-contact
+{
+    width: 80px;
+    height: 5px;
+    background-color: #fff;
+    margin-left: 155px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#contactForm
+{
+    margin-left: 155px;
+}
+
+.radiotxt
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    padding-left: 10px;
+}
+
+input[type="radio"]
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#bericht
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 80%;
+    height: 200px;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 1px;
+    resize: none;
+    background: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    outline: none !important;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+#emailadres
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 80%;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 1px;
+    background: none;
+    padding: 20px;
+    margin-bottom: 30px;
+    outline: none !important;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+::-webkit-input-placeholder
+{
+    color: #fff !important;
+}
+
+:-ms-input-placeholder
+{
+    color: #fff !important;
+}
+
+:-moz-placeholder
+{
+    color: #fff !important;
+}
+
+::-moz-placeholder
+{
+    color: #fff !important;
+}
+
+#btnbericht
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 1px;
+    padding: 15px 60px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#btnbericht:hover
+{
+    background-color: #fff;
+    color: #7e4591;
+}
+
+.wrap-visite a
+{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.title-visite
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line-visite
+{
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-visite
+{
+    width: 100px;
+    height: 70px;
+    background-image: url("../../../public/img/TM_logo_trans_web.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrap-social
+{
+    display: flex;
+}
+
+.facebook
+{
+    width: 30px;
+    height: 50px;
+    background-image: url("../../../public/img/facebook.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.twitter
+{
+    width: 30px;
+    height: 50px;
+    background-image: url("../../../public/img/twitter.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.linkedIn
+{
+    width: 30px;
+    height: 50px;
+    background-image: url("../../../public/img/linkedin.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.facebook:hover,
+.twitter:hover,
+.linkedIn:hover
+{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
