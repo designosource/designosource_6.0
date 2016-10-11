@@ -264,3 +264,57 @@ input[type="radio"]
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+@media (max-width: 400px){
+  .projecten .grid .grid-item, .projecten .grid .grid-item--width2{
+    width: 100%;
+  }
+}
+@media(max-width: 1000px){
+  .contact
+  {
+    width: 100vw;
+    padding-left: 0;;
+    margin: 0;
+    height: auto;
+    padding-top: 1px;
+    display: block;
+
+  }
+
+  .contact-left
+  {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-right
+  {
+    width: 100%;
+    height: auto;
+
+  }
+  #contactForm
+  {
+    margin-left: 3%;
+  }
+
+  .title-contact
+  {
+    margin-left: 3%;
+    margin-top: 20px;
+  }
+
+  .line-contact
+  {
+    margin-left: 3%;
+  }
+
+  .line-contact
+  {
+   margin-bottom: 20px;
+  }
+
+  .projecten .grid .grid-item, .projecten .grid .grid-item--width2{
+    width: 45%;
+  }
+}
