@@ -1532,13 +1532,13 @@ footer #socialMedia li a {
   text-indent: -9999px;
   background-repeat: no-repeat; }
 
-footer ul#socialMedia li#twitter a {
+a .twitter {
   background-image: url("../../public/img/twitter.svg"), none;
    }
-footer ul#socialMedia li#facebook a {
+a .facebook{
   background-image: url("../../public/img/facebook.svg"), none;
   }
-footer ul#socialMedia li#linkedIn a {
+a .linkedIn {
   background-image: url("../../public/img/linkedin.svg"), none;
  }
 footer #visitekaartje p {
