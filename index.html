@@ -1,8 +1,3 @@
-<?php
-if($_POST['action'] == 'call_this') {
-// call removeday() here
-}
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -258,9 +253,9 @@ if($_POST['action'] == 'call_this') {
             <div class="line-contact"></div>
             <form name="sentMessage" id="contactForm" method="POST" action="">
                 <div id="radios">
-                    <input type="radio" name="subject" value="contact" checked="checked"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
-                    <input type="radio" name="subject" value="workflow"><span class="radiotxt">Ik wil de workflow van dichtbij bekijken.</span><br>
-                    <input type="radio" name="subject" value="informatie"><span class="radiotxt">Ik wil informatie vragen over mijn project.</span><br>
+                   <label> <input type="radio" name="subject" value="contact" checked="checked"><span class="radiotxt">Contact opnemen voor een samenwerking.</span></label><br>
+                    <label><input type="radio" name="subject" value="workflow"><span class="radiotxt">Ik wil de workflow van dichtbij bekijken.</span></label><br>
+                    <label><input type="radio" name="subject" value="informatie"><span class="radiotxt">Ik wil informatie vragen over mijn project.</span></label><br>
                 </div>
                 <div id="writingarea">
                     <textarea name="bericht" required id="bericht"  cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea><br>
