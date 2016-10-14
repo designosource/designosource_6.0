@@ -5,7 +5,7 @@ $(document).ready(function() {
         var subject = $("input:radio[name=subject]").val();
         var message = $('#bericht').val();
 
-        var veld_email = $("#emailadres"); 
+        var veld_email = $("#emailadres");
         var veld_message = $("#bericht");
 
         if(email == '' && message == ''){
@@ -28,13 +28,13 @@ $(document).ready(function() {
                         type: "post",
                         data: values ,
                         success: function (response) {
-                           // you will get response from your php page (what you echo or print)                 
+                           // you will get response from your php page (what you echo or print)
                         window.location = 'http://www.designosource.be';
                         },
                         error: function(jqXHR, textStatus, errorThrown) {
                            console.log(textStatus, errorThrown);
                         }
-                    });      
+                    });
                 }
             }
         }
@@ -56,36 +56,3 @@ $(document).ready(function() {
         else{input.addClass("error");} 
     });
 });
-
-    //form validation met plugin
-
-   /* $('#contactForm').validate({
-        rules: {
-            emailadres: {
-                required: true,
-                email: true
-            },
-            bericht: {
-                required: true
-            },
-            highlight: function (element) {
-                $(element).parent().addClass('error')
-            },
-            unhighlight: function (element) {
-                $(element).parent().removeClass('error')
-            },
-            submitHandler: function(form) {
-             /*var data = $('#contactForm').serialize();
-             $.post(
-                    '../mail/contact_us.php',
-                    {data: data},
-                    function(response){
-                      console.log(response);
-                    }
-                );
-            $("#contactForm").ajaxForm({url: 'mail/contact_us.php', type: 'post'});
-            }
-        }
-    });*/
-    //http://code.runnable.com/UkmCKF6ekb0tAAC-/how-to-use-jquery-validation-custom-messages-and-placement
-    //end form validation
