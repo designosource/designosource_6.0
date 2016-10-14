@@ -8,6 +8,7 @@ if($_POST['action'] == 'call_this') {
 <head>
     <meta charset="UTF-8">
     <title>Designosource 6.0</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="public/css/reset.css" type="text/css">
     <link rel="stylesheet" href="public/css/style.min.css" type="text/css">
     <link rel="stylesheet" href="public/css/style.css" type="text/css">
@@ -28,6 +29,7 @@ if($_POST['action'] == 'call_this') {
     <meta name="twitter:description"
           content="Preview website Designosource"/>
     <meta name="twitter:image" content="http://www.designosource.be/public/img/back.jpg"/>
+
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -256,7 +258,7 @@ if($_POST['action'] == 'call_this') {
         <div class="contact-left">
             <div class="title-contact">Contacteer ons</div>
             <div class="line-contact"></div>
-            <form name="sentMessage" id="contactForm" method="POST" action="">
+            <form name="sentMessage" id="contactForm" method="POST" action="mail/contact_us.php">
                 <div id="radios">
                     <input type="radio" name="subject" value="contact" checked="checked"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
                     <input type="radio" name="subject" value="workflow"><span class="radiotxt">Ik wil de workflow van dichtbij bekijken.</span><br>

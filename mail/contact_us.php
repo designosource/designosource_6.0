@@ -17,7 +17,9 @@ $email_subject = "Website Contact Form:  $subject";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nEmail: $email_address\n\Subject: $subject\n\nMessage:\n$message";
 $headers = "From: noreply@designosource.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 mail($to,$email_subject,$email_body,$headers);
-return true;		
+header('location: /');
+return true;
+
 ?>
 
 
