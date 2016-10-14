@@ -245,16 +245,16 @@ if($_POST['action'] == 'call_this') {
         <div class="contact-left">
             <div class="title-contact">Contacteer ons</div>
             <div class="line-contact"></div>
-            <form name="sentMessage" id="contactForm" >
+            <form name="sentMessage" id="contactForm" method="POST" action="">
                 <div id="radios">
                     <input type="radio" name="subject" value="contact" checked="checked"><span class="radiotxt">Contact opnemen voor een samenwerking.</span><br>
                     <input type="radio" name="subject" value="workflow"><span class="radiotxt">Ik wil de workflow van dichtbij bekijken.</span><br>
                     <input type="radio" name="subject" value="informatie"><span class="radiotxt">Ik wil informatie vragen over mijn project.</span><br>
                 </div>
                 <div id="writingarea">
-                    <textarea name="bericht" id="bericht"  cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea><br>
-                    <input type="text" value="" name="emailadres" id="emailadres" placeholder="Emailadres"><br>
-                    <button type="button" id="btnbericht">verzenden</button>
+                    <textarea name="bericht" required id="bericht"  cols="30" rows="10" placeholder="Schrijf ons een berichtje"></textarea><br>
+                    <input type="email" required value="" name="emailadres" id="emailadres" placeholder="Emailadres"><br>
+                    <input type="submit" id="btnbericht">
                 </div>
             </form>
         </div>
